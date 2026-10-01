@@ -4,3 +4,6 @@ start-dev-cluster:
 
 stop-dev-cluster:
     kind delete cluster --name realtime-recsys-dev
+
+uuidgen:
+    uuidgen | tr '[:upper:]' '[:lower:]'
